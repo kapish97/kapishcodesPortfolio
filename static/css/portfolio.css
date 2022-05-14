@@ -84,6 +84,18 @@ body{
     
 }
 
+
+.workexp{
+    display: flex;
+    font-size:70px;
+    background-color: #000000;
+    color: #F5F7FA;
+    justify-content: center;
+    margin: 0 0;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+
 @media only screen and (min-width: 320px) and (max-width:480px)
 {
     .kapish{

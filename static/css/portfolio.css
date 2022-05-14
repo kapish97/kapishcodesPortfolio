@@ -321,7 +321,7 @@ body{
     }
     .photo{
     
-        background: url(../images/raindrops.svg);
+        background: black;
         width:105%;
         margin: -100px -8px -8px -8px;
         background-repeat: no-repeat;
@@ -421,8 +421,7 @@ body{
 
     }
     .photo{
-    
-        background: url(../images/raindrops.svg);
+        background: black;
         width:105%;
         margin: -100px -8px -8px -8px;
         background-repeat: no-repeat;
@@ -525,7 +524,7 @@ body{
     }
     .photo{
     
-        background: url(../images/raindrops.svg);
+        background: black;
         width:120%;
         margin: -100px -8px -8px -8px;
         padding-left: 100px;

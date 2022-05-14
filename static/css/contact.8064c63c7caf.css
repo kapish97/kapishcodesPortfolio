@@ -1,0 +1,160 @@
+
+html{
+    box-sizing: border-box;
+    background-color: #F5F7FA;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+body{
+    font-family: 'Big Shoulders Stencil Text', cursive;
+
+    /*font-family: 'Nerko One', cursive;*/
+}
+
+.navbar{
+    font-family:'Big Shoulders Stencil Text', cursive;
+    color: white;
+    font-size: 35px;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.photo{
+    
+    background: url("../images/raindrops.da982bc1898b.svg");
+    height: 100vh;
+    margin: -100px -8px -8px -8px;
+    
+}
+
+
+
+@media only screen and (min-width: 480px) and (max-width:767px) {
+    nav{
+        display: flex;  
+        flex-direction: column; 
+        justify-content: space-around;
+        align-items: center;
+        margin: -14px -8px 4px -10px;
+        background-color: black; 
+        padding-bottom: 80px; 
+        padding-bottom: 10px;   
+        
+     }
+     .line-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 100vh;
+        font-size: 50px;
+        margin-top: 10px;
+    }
+
+    .line-1{
+        margin-top: 0;   
+        font-size: 60px;
+        color:white;        
+        margin: 0;
+        top:1%;
+        left:1%; 
+        justify-content: center;
+     }
+
+     .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: -8px -8px -8px -8px;
+        padding: 15px 15px 15px 2px;
+        color: white;
+        background: black;
+
+    }
+    .social-media h3{
+        justify-self: center;
+    }
+    .social-mediaimg{
+        width:60px;
+        height: 60px;
+    }
+
+
+    
+
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    nav{
+        display: flex;  
+        flex-direction: row; 
+        justify-content: space-between;
+        align-items: center;
+        margin: -20px -8px 0px 10px;
+        background-color: black;
+        margin-left:-10px; 
+        padding-bottom: 70px;       
+        
+     }
+
+    
+    .line-parent{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center;
+        height: 100vh;
+        font-size: 50px;
+        margin-top: 10px;
+    }
+
+    .line-1{
+        margin-top: 0;   
+        font-size: 60px;
+        color:white;        
+        margin: 0;
+        top:1%;
+        left:1%; 
+        justify-content: center;
+     }
+
+
+     .social-media{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: -8px -8px -8px -8px;
+        padding: 15px 15px 15px 2px;
+        color: white;
+        background: black;
+
+    }
+    .social-media h3{
+        justify-self: center;
+    }
+    .social-mediaimg{
+        width:60px;
+        height: 60px;
+    }
+
+
+     
+
+
+}

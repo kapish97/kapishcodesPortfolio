@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+{%load static%}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@600&family=Nerko+One&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="{%static "css/portfolio.css"%}">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://use.fontawesome.com/7b9fb3d549.js"></script>
+
+</head>
+<body>
+    <nav>
+        <div class="name" >Kapishcodes.com</div>
+        <a  class="navbar" href="/portfolio">Portfolio</a>
+        <a  class="navbar" href="/blog">Blog</a>
+        <a  class="navbar" href="/contact">Contact</a>
+    </nav>
+    <section>
+        <div class="photo">
+          
+            <div class="line-parent">
+               <img class="kapish" src="{%static "images/KAPISH.png"%}" alt="kapish photo">
+               <div>
+                  <h1 class="line-1">Hello!</h1>
+                  <h1 class="line-1">I'm Kapish</h1>  
+                  <h1 class="line-1">Electronics </h1>
+                  <h1 class="line-1">and</h1>
+                  <h1 class="line-1">Communication</h1>
+                  <h1 class="line-1">Engineer</h1>
+               </div>
+                
+
+            </div>          
+        </div>
+    </section>
+
+    <div class="together-mait">
+      <div class="mait">
+         <img class="logo" src="{%static "images/mait3.png"%}" alt="mait logo">
+         <section class="mait-descrip">
+            <h1> ECE BATCH (2016-2020)</h1>
+            <h1 >B.Tech percentage: 71%</h1>
+            <h1 >Maharaja Agrasen Institute of Technology,Delhi</h1>
+         </section>       
+       </div>
+   
+       <div class="mait">
+         <img class="logo" src="{%static "images/Ghpslogo.png"%}" alt="mait logo">
+         <section class="mait-descrip" >
+            <h1>12th (2015-2016)</h1>
+            <h1>Percentage: 71%</h1>
+            <h1>Guru Harkrishan Public School, Nanak Piao</h1>
+         </section>
+       </div>
+   
+       <div class="mait">
+         <img class="logo" src="{%static "images/Ghpslogo.png"%}" alt="mait logo">
+         <section class="mait-descrip">
+           <h1>10th </h1>
+           <h1>Percentage: 74.1%</h1>
+           <h1>Guru Harkrishan Public School, Nanak Piao</h1>
+         </section>  
+       </div>
+    </div>
+   
+   <div class="gradient">
+      <h1 class="heading">Trainings and Certifications</h1>
+      <h1 class="under-heading">Programming for Everybody Specialization</h1>
+      <ul>
+         <li class="under-subheading">Issuing organization: Coursera</li>
+         <li class="under-subheading">Issue Date: April 2020</li>
+         <li class="under-subheading"><a href="https://coursera.org/share/199c16d9d1daaadc9121b9f3c7a990af">Certificate link</a> </li>
+      </ul>
+      <h1 class="under-heading">Certificate Course in VLSI Design</h1>
+      <ul>
+         <li class="under-subheading" ">Issuing organization: NPTEL,Govt. of india,inderlok</li>
+         <li class="under-subheading" ">06/2019 - 08/2019</li>
+         <li class="under-subheading" ">Awarded  83% Marks with grade 'A' </li>
+      </ul>
+      <h1 class="under-heading">Embedded Systems and IOT(PIC Microcontroller)</h1>
+      <ul>
+         <li class="under-subheading">Issuing organization: I3INDYA Technologies</li>
+         <li class="under-subheading">08/2018</li>
+         <li class="under-subheading">AReceived Certificate of Participation </li>
+      </ul>
+  
+   </div>
+
+   <div class="gradient">
+      <h1 class="heading">Projects</h1>
+   <h1 class="under-heading">Attendance system using Python</h1>
+   <ul>
+      <li class="under-subheading">Created a program which inputs Excel file containing the students attendance and then writes the remarks for all students in another excel file.Program takes 2 months,4months,and 6 months attendance and after that provides credit to student according to 6-month attendance</li>
+   </ul>
+   <h1 class="under-heading">Ultrasonic distance measurement system using arduino</h1>
+   <ul>
+      <li class="under-subheading">Created a distance measurement tool with the help of arduino and HCSR04 Ultrasonic sensor which tells object distance in centimeters on the LCD screen</li>
+   </ul>
+   <h1 class="under-heading">Simple elevator logic implementation using verilog</h1>
+   <ul>
+      <li class="under-subheading">implemented the simple elevator logic using Xilinx vivado and verilog hdl</li>
+   </ul>
+
+   <h1 class="under-heading">Tic tac toe Game using Python</h1>
+   <ul>
+      <li class="under-subheading">implemented tic tac toe game using python3 programming language</li>
+   </ul>
+
+   </div>
+   <div class="gradient">
+      <h1 class="heading">Skills</h1>
+      <div class="skills">
+         <div ><img class="imgs" src="{%static "images/c.png"%}" alt="c"></div>
+         <div ><img class="imgs" src="{%static "images/python.png"%}" alt="python"></div>
+         <div ><img class="imgs" src="{%static "images/sql.png"%}" alt="sql"></div>
+         <div ><img class="imgs" src="{%static "images/excel.png"%}" alt="excel"></div>
+         <div ><img class="imgs" src="{%static "images/html.png"%}" alt="html"></div>
+         <div ><img class="imgs" src="{%static "images/css.png"%}" alt="css"></div>
+         <div ><img class="imgs" src="{%static "images/javascript.png"%}" alt="javascript"></div>
+         <div ><img class="imgs" src="{%static "images/bootstrap.png"%}" alt="bootstrap"></div>
+         <div ><img class="imgs" src="{%static "images/linux.png"%}" alt="linux"></div>
+         <div ><img class="imgs" src="{%static "images/dsa.png"%}" alt="dsa"></div>
+         <div ><img class="imgs" src="{%static "images/django.png"%}" alt="django"></div>
+
+      </div>
+   </div>
+
+   <div class="social-media">
+      <a href="https://www.linkedin.com/in/kapish-092268121/" ><img class="social-mediaimg"  src="{%static "images/linkedin.png"%}" alt="Github"></a>   
+      <a href="https://github.com/kapish97"><img class="social-mediaimg" src="{%static "images/github.png"%}" alt="LinkedIn"></a> 
+      <h3 href="/portfolio">Kapishcodes.com</h3>
+   </div>
+           
+
+  
+</body>
+</html>
+

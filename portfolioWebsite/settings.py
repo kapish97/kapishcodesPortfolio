@@ -25,7 +25,7 @@ SECRET_KEY = 'f-033lay2z0k$)9#7$x^tydfuu%hpii$$jqit!y*g!5cg!bonh'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [".herokuapp.com","www.kapishcodes.com","kapishcodes.com","127.0.0.1"]
+ALLOWED_HOSTS = ['*']
 
 
 

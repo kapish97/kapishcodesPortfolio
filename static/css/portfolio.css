@@ -1,13 +1,17 @@
 
 html{
     box-sizing: border-box;
-    background-color: #F5F7FA;
+    background-color: black;
 }
 
 *,
 *:before,
 *:after{
     box-sizing: inherit;
+}
+.headernav{
+    display: flex;
+    justify-content: center;
 }
 
 body{
@@ -23,13 +27,14 @@ body{
     font-family:'Big Shoulders Stencil Text', cursive ;
     font-size: 80px;
     color: white;
-    justify-content: flex-start;
+    text-align: center;
 }
 
 .navbar{
     font-family:'Big Shoulders Stencil Text', cursive;
     color: white;
     font-size: 50px;
+    margin-left: 30px;
 }
 
 
@@ -87,7 +92,7 @@ body{
 
 .workexp{
     display: flex;
-    font-size:70px;
+    font-size:60px;
     background-color: #000000;
     color: #F5F7FA;
     justify-content: center;
@@ -109,7 +114,7 @@ body{
     }
     .photo{
     
-        background: url(../images/raindrops.svg);
+        background: black;
         width:110%;
         margin: -100px -8px -8px -8px;
         background-repeat: no-repeat;
@@ -117,8 +122,9 @@ body{
     }
     .name{
         font-size:35px;
+        margin-left:90px;
     }
-    nav{
+    .nav{
         display: flex;  
         flex-direction: column; 
         justify-content: space-around;
@@ -138,13 +144,13 @@ body{
         margin-top: 10px;
     }
     .kapish{
-        margin-top: 10px;
+        margin-top: 100px;
         margin-bottom: 10px;
     }
 
      .line-1{
         margin-top: 0;   
-        font-size: 40px;
+        font-size: 30px;
         color:white;        
         margin: 0;
         animation:rollIn; 
@@ -177,10 +183,11 @@ body{
     }
 
     .imgs{
-        width: 200px;
-        height: 200px;
-        padding-left: 10px;
+        width: 80px;
+        height: 80px;
+        padding-left: 20px;
         padding-bottom: 20px;
+        margin-left: 10px;
     }
 
     .social-media{
@@ -196,8 +203,8 @@ body{
 
     }
     .social-mediaimg{
-        width:60px;
-        height: 60px;
+        width:30px;
+        height: 30px;
     }
 
 }
@@ -224,7 +231,7 @@ body{
         background-repeat: no-repeat;
         background-color: black; 
     }
-    nav{
+    .nav{
         display: flex;  
         flex-direction: column; 
         justify-content: space-around;
@@ -309,8 +316,8 @@ body{
 
 @media only screen and (min-width: 768px) and (max-width:1024px) {
     .kapish{
-        width: 350px;
-		height: 350px;
+        width: 160px;
+		height: 160px;
         border-radius: 50%;
         -webkit-box-shadow: -2px -4px 97px 9px rgba(255,255,255,1);
         -moz-box-shadow: -2px -4px 97px 9px rgba(255,255,255,1);
@@ -328,7 +335,7 @@ body{
         background-color: black; 
         
     }
-    nav{
+    .nav{
         display: flex;  
         flex-direction: column; 
         justify-content: space-around;
@@ -351,7 +358,7 @@ body{
 
      .line-1{
         margin-top: 0;   
-        font-size: 60px;
+        font-size: 40px;
         color:white;        
         margin: 0;
         animation:rollIn; 
@@ -428,7 +435,7 @@ body{
         background-color: black; 
         
     }
-    nav{
+    .nav{
         display: flex;  
         flex-direction: column; 
         justify-content: space-around;
@@ -533,7 +540,7 @@ body{
         background-color:black;
     }
 
-    nav{
+    .nav{
         display: flex;  
         flex-direction: row; 
         justify-content: space-between;

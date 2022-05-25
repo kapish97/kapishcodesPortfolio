@@ -59,11 +59,12 @@ body{
  .heading{
      text-align: center;
      font-size:70px;
-     color: white;
+     color: #0daddc;
  }
  .under-heading{
      font-size: 50px;
      color: white;
+     margin-left: 2%;
  }
  .under-subheading{
     font-size: 30px;
@@ -76,6 +77,10 @@ body{
     margin: -47px -8px -8px -8px;
     align-items: center;
 }
+/* .photos{
+    width: 100%;
+    height: 200px;
+} */
 
 
 .skills{
@@ -94,15 +99,32 @@ body{
     display: flex;
     font-size:60px;
     background-color: #000000;
-    color: #F5F7FA;
+    color: #0daddc;
     justify-content: center;
     margin: 0 0;
     margin-left: -8px;
     margin-right: -8px;
+    
+
 }
 
 @media only screen and (min-width: 320px) and (max-width:480px)
 {
+    .navbar {
+        font-family: 'Big Shoulders Stencil Text', cursive;
+        color: white;
+        font-size: 30px;
+        margin-left: 30px;
+      }
+    .logo {
+        display: block;
+        width: 250px;
+        height: 200px;
+        margin-top: -70px;
+        margin-bottom: -70px;
+        margin-left: auto;
+        margin-right: auto;
+      }
     .kapish{
         width: 150px;
 		height: 150px;
@@ -171,7 +193,7 @@ body{
         color:white;
         justify-content: stretch;
         align-items: center;
-        font-size: 30px;
+        font-size: 20px;
         justify-content: center;
         
 
@@ -184,6 +206,10 @@ body{
         padding-left: 20px;
         padding-bottom: 20px;
         margin-left: 10px;
+    }
+    .greet{
+        font-size: 35px;
+        color: #0daddc;
     }
 
     .social-media{
@@ -236,7 +262,16 @@ body{
         background-color: black; 
         padding-bottom: 80px;    
         
+
      }
+     .photos{
+        width: 50%;
+        height: 225px;
+     }
+     .under-heading{
+        font-size: 40px;
+        color: white;
+    }
      .line-parent{
         display: flex;
         flex-direction: column;
@@ -244,7 +279,7 @@ body{
         align-items: center;
         height: 100vh;
         font-size: 40px;
-        margin-top: -300px;
+        margin-top: 90px;
     }
 
      .line-1{
@@ -277,17 +312,22 @@ body{
         
     }
     .logo{
-        width: 30%;
-        height: 20%;
+        width: 50%;
+        height: 50%;
         margin-top: -50px;
         margin-bottom: -50px;
+        margin-left: 197px;
     }
 
     .imgs{
         width: 200px;
         height: 200px;
-        padding-left: 10px;
+        margin-left: 34px;
         padding-bottom: 20px;
+    }
+    .greet{
+        font-size: 35px;
+        color: #0daddc;
     }
 
     .social-media{
@@ -311,11 +351,17 @@ body{
 
 
 
-
 @media only screen and (min-width: 768px) and (max-width:1024px) {
+    .logo {
+        width: 373px;
+        height: 242px;
+        margin-top: -52px;
+        margin-bottom: -70px;
+        margin-left: 214px;
+      }
     .kapish{
-        width: 160px;
-		height: 160px;
+        width: 230px;
+		height: 217px;
         border-radius: 50%;
         -webkit-box-shadow: -2px -4px 97px 9px rgba(255,255,255,1);
         -moz-box-shadow: -2px -4px 97px 9px rgba(255,255,255,1);
@@ -353,6 +399,17 @@ body{
         font-size: 50px;
         margin-top: 10px;
     }
+    .skills{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        align-content: space-between;
+        background-color: #2d3436;
+        background-image: linear-gradient(315deg, #2d3436 0%, #000000 74%);
+        margin-left:10%;
+    }
+       
 
      .line-1{
         margin-top: 0;   
@@ -366,6 +423,10 @@ body{
         align-self: center;
         
      }
+     .photos{
+        width: 50%;
+        height: 236px;
+    }
 
   
      .mait{
@@ -400,8 +461,11 @@ body{
         margin: -1px -8px -8px -8px;
         background-color: black;
         color: white;
-        
 
+    }
+    .greet{
+        font-size: 35px;
+        color: #0daddc;
     }
     .social-mediaimg{
         width:60px;
@@ -521,7 +585,7 @@ body{
         width: 30%;
         height: 20%;
         margin-top: -50px;
-        margin-bottom: -150px;
+        margin-bottom: -168px;
       }
     .kapish{
         width: 400px;
@@ -530,6 +594,7 @@ body{
         -webkit-box-shadow: -2px -4px 97px 9px rgba(255,255,255,1);
         -moz-box-shadow: -2px -4px 97px 9px rgba(255,255,255,1);
         box-shadow: -2px -4px 97px 9px rgba(255,255,255,1);
+        margin-left: 5%;
     }
     .photo{
     
@@ -560,11 +625,11 @@ body{
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        height: 100vh;
+        height: 90vh;
         font-size: 50px;
         margin-top: 100px;
         margin-left: -500px;
-    }
+     }
 
      .line-1{
    
@@ -587,6 +652,10 @@ body{
         align-items: center;   
         font-size: 40px;       
     }
+    .photos{
+        width: 500px;
+        height:500px;
+    }
 
     .mait-descrip{
         padding-left: 40px;
@@ -599,15 +668,20 @@ body{
         background-color: #000000;
         color: #F5F7FA;
         justify-content: center;
-        margin: 0 0;
-        margin-left: -8px;
-        margin-right: -8px;
+        margin-top: 110px;
+        color: #0daddc;
+        
     }
 
     .imgs{
         width: 350px;
         height: 350px;
         padding-left: 20px;
+    }
+    .greet{
+        color: #0daddc;
+        font-size: 50px;
+        text-align: center;
     }
     .social-media{
         display: flex;

@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'firstApp',
     'blog',
     'rest_framework',
+    'bootstrap5',
 ]
 
 MIDDLEWARE = [
